@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+   int maths,phy,chem,total,mp;
+   scanf("%d",&maths);
+   scanf("%d",&phy);
+   scanf("%d",&chem);
+   total=maths+phy+chem;
+   mp=maths+phy;
+   if(maths >=65 && phy >=55 && chem>=50 && total>=190 && mp >=140 )
+   {
+       printf("eligible");
+   }
+   else
+   {
+       printf("not eligible");
+   }
+}
